@@ -1,0 +1,15 @@
+{
+  "name": "pd_2014_query",
+  "version": "0.0.1",
+  "description": "Obtain stats for a given pd",
+  "main": "index.js",
+  "author": "Brian Bancroft",
+  "license": "MIT",
+  "dependencies": {
+    "pg": "^7.4.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "zip-file file://Lambda-Deployment.zip"
+  }
+}
